@@ -11,29 +11,25 @@ export class post extends Entity {
 
   @property({
     type: 'string',
-    required: true,
-    default: blank,
+    required: true
   })
   name: string;
 
   @property({
     type: 'string',
-    required: true,
-    default: NULL,
+    required: true
   })
   description: string;
 
   @property({
     type: 'string',
-    required: true,
-    default: blank,
+    required: true
   })
   imageurl: string;
 
   @property({
     type: 'string',
-    required: true,
-    default: blank,
+    required: true
   })
   videourl: string;
 
@@ -61,6 +57,11 @@ export class post extends Entity {
   })
   topicid: number;
 
+  @property({
+    type: 'number',
+    required: true,
+  })
+  posttype: number;
 
   constructor(data?: Partial<post>) {
     super(data);
