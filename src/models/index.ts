@@ -4,3 +4,4 @@ export * from './post.model';
 export * from './comment.model';
 export * from './topicfollowing.model';
 export * from './likes.model';
+export * from './userfollowing.model';

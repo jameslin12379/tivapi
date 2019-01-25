@@ -4,3 +4,4 @@ export * from './post.repository';
 export * from './topic.repository';
 export * from './topicfollowing.repository';
 export * from './user.repository';
+export * from './userfollowing.repository';
